@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}
+  
+.wrapper {
+    display: flex;
+    padding: 10px;
+    gap: 60px;
+    margin: auto;
+}
+
+body {
+  min-width: 450px;
+}
